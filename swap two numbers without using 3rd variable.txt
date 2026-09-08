@@ -1,0 +1,14 @@
+a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+a , b = b , a
+print("After Swapping:")
+print("a=",a)
+print("b=",b)
+
+output
+Enter a:10
+Enter b:20
+
+After Swapping:
+a=20
+b=10 

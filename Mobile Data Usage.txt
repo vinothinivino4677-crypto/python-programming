@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+data_usage = int(input())
+
+gigabytes = data_usage // 1024
+remaining_mb = data_usage % 1024
+
+print(gigabytes)
+print(remaining_mb)
+
+
+Input (stdin)
+0
+1000000
+Your Output (stdout)
+0
+0

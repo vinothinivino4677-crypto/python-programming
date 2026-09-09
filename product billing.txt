@@ -1,0 +1,18 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+price = int(input())
+quantity = int(input())
+discount = int(input())
+
+total_cost = price * quantity
+final_amount = total_cost - discount
+
+print(final_amount)
+
+
+input
+10
+100000
+1000
+
+output
+999000

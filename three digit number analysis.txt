@@ -1,0 +1,22 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+number = int(input())
+
+hundreds = number // 100
+tens = (number // 10) % 10
+units = number % 10
+
+digit_sum = hundreds + tens + units
+
+print(hundreds)
+print(tens)
+print(units)
+print(digit_sum)
+
+input (stdin)
+100
+999
+Your Output (stdout)
+1
+0
+0
+1

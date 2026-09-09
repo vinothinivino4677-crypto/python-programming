@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+basic_salary = int(input())
+allowance = int(input())
+bonus = int(input())
+
+total_salary = basic_salary + allowance + bonus
+
+print(total_salary)
+
+
+
+output
+
+5000
+1000000
+5000000

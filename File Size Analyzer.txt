@@ -1,0 +1,14 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+file_size = int(input())
+
+kilobytes = file_size // 1024
+remaining_bytes = file_size % 1024
+
+print(f"Size: {kilobytes} KB Remaining: {remaining_bytes} bytes")
+
+
+Input (stdin)
+1024 
+ 1000000000
+Your Output (stdout)
+Size: 1 KB Remaining: 0 bytes
